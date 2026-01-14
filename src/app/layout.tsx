@@ -6,6 +6,7 @@ import { Geist, Nunito_Sans } from "next/font/google";
 import { TRPCReactProvider } from "~/trpc/react";
 import Nav from "./_components/navbar";
 import Footer from "./_components/footer";
+import Hero from "./_components/hero";
 
 export const metadata: Metadata = {
 	title: "Create T3 App",
@@ -32,7 +33,9 @@ export default function RootLayout({
 		<html className={`${nunitosans.variable}`} lang="en">
 			<body className="flex flex-col min-h-screen bg-primary text-white">
 				<Nav />
+				
 				<div className="flex-1">
+					<Hero />
 					<TRPCReactProvider>{children}</TRPCReactProvider>
 				</div>
 				<Footer />
