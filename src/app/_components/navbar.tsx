@@ -5,7 +5,7 @@ const menu = [
     {id:0, title:"alvas onguru", href:'/'},
     {id:1, title:"work", href:'work'},
     {id:2, title:"about", href:'about'},
-    {id:3, title:"let's talk", href:'lets-talk'}
+    {id:3, title:"ad agencies read here", href:'ad-agencies-read-here'}
 ]
 
 

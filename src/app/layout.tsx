@@ -34,8 +34,7 @@ export default function RootLayout({
 			<body className="flex flex-col min-h-screen bg-primary text-white">
 				<Nav />
 				
-				<div className="flex-1">
-					<Hero />
+				<div className="flex-1 gap-10">
 					<TRPCReactProvider>{children}</TRPCReactProvider>
 				</div>
 				<Footer />
