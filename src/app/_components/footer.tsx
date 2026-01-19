@@ -1,6 +1,6 @@
 import {SiReact, SiWhatsapp, SiInstagram, SiX, SiSubstack} from '@icons-pack/react-simple-icons'
 import {Phone, Mail, Pin} from 'lucide-react'
-
+import Image from 'next/image'
 
 export default function Footer() {
     return(
@@ -22,10 +22,15 @@ export default function Footer() {
                 </div>
             </div>
             <div className='grid gap-3'>
-                <SiInstagram />
-                <SiX />
-                <SiSubstack />
-                <p>linkedin</p>
+                <SiInstagram size={20} />
+                <SiX size={20} />
+                <SiSubstack size={20} />
+                <Image 
+                src="/linkedin.svg"
+                alt="Alvas Onguru LinkedIn"
+                width={20}
+                height={20}
+                />
             </div>
         </footer>
     )

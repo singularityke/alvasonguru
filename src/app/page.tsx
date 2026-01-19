@@ -19,18 +19,7 @@ export default function Home() {
 					))} */}
 				</div>
 			
-				<div className="flex flex-col md:flex-row justify-between mt-4">
-					<div className="hidden md:block" />
-					<div className="w-full md:w-1/3">
-						<p className="text-lg md:text-base lg:text-lg">
-							I'm a createive consultant
-							 working with leaders to sharpen 
-							 strategy and storytelling becuase I 
-							 believe creativity is the most powerful 
-							 force in business
-						</p>
-					</div>
-				</div>
+			
 
 				<div className="flex flex-col lg:flex-row justify-between gap-6 md:gap-8 lg:gap-10 mx-auto w-full">
 					<div className="border w-full lg:w-1/3">
